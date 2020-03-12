@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,.9)), url(../img/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#container-title-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    max-width: 1580px; 
+    width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    color:#fff;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    color: #fff
+}
+
+.container-title{
+    text-align: center;
+}
+
+.container-title a , #about-me a {
+    font-size: 14px;
+    color: #fff;
+    background: #5cb8ff;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+p.logo{
+    color:#fff;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+/* SECCION DE SOBRE MI */
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#about-me .container-about-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me .text{
+    width: 42%;
+}
+
+
+/* SECCION SERVICIOS */
+
+.container-services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.service{
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.service p {
+    margin-bottom: 20px;
+    height: 194px;
+}
+
+.container-services .violet {
+    background: linear-gradient(to top, #5055df, #6d68f3);
+    box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+.container-services .skyblue {
+    background: linear-gradient(to top, #40a8f9, #5cb8ff);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.ondas{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.icon{
+    float: right;
+}
